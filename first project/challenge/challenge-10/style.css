@@ -1,0 +1,11 @@
+div > * > p {
+  color: blue;
+}
+
+/*w 2 selektorach*/
+div>div{
+  color:blue;
+}
+div>section{
+  color: blue;
+}

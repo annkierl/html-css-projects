@@ -1,0 +1,58 @@
+h1 {
+    font-family: "Lobster"; /* font from Google Fonts*/
+    color: whitesmoke;
+    text-align: center;
+}
+html{
+    background-color: dimgrey;
+}
+.recipe ol {
+width: 600px;
+border: solid;
+padding: 0px;
+font-size:14px;
+flex-wrap:wrap;
+margin-left: auto;
+margin-right: auto;
+list-style-position: inside;
+
+}
+.recipe li{
+    
+    border:0px;
+    padding: 5px;
+}
+li:nth-child(even){
+    background-color:cornflowerblue;
+    
+}
+li:nth-child(odd){
+    background-color:burlywood;
+}
+.recipe>img{ /*"Zdjęcie wyróżniające zastosujcie tutaj wiedzę z zajęć(użycie srcset i sizes), oraz niech ma zaokrąglone rogi"*/
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+galery>img{
+    border:2px solid salmon;
+    padding:10px;
+    border-radius: 20%;
+    padding: 5px;
+    height: auto;
+}
+galery{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+galery>img:last-child{
+    opacity: 0.7; /*opacity 70%*/
+}
+li:last-child{    /* Użycie skrótowej wartości font 2 razy*/
+    font: 15px Arial, sans-serif;
+}
+.font2{ 
+    font:  15px 'Shadows Into Light'; /* z google fonts*/
+}

@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background-color: #00b4b3;
+}.aboutUs{
+    order:1;
+    padding:10% 15%;
+    color:white;
+}
+.bowl{
+    order:0;
+   
+}
+.second-article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.aboutUs h2{
+    font-size:70px;
+    margin: 0px 0px;
+}
+.aboutUs p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}

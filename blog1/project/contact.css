@@ -1,0 +1,96 @@
+body{
+    height: 100%;
+    background-image: url(./images/background5.jpg);
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+    background-size: cover;
+    margin: 0px 0px;;
+}
+h1{
+    display:flex;
+justify-content: center;
+align-items: center;
+margin: 0px 0px;
+padding-top:90px;
+font-size:50px;
+}
+.contact{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.contact p{
+    width:400px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:200px;
+    padding-top: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:15px;
+    padding-bottom: 50px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:15px;
+}
+.inputs input, textarea {
+    background-color:  rgba(0,196,195,0.3);
+    width: 470px;
+    height: 40px;
+    border:none;
+  }
+  .inputs input::placeholder{
+      color: white;
+  }
+  .inputs .message{
+    height: 350px;
+  }
+
+.inputs button{
+    padding:10px 45px;
+    color:white;
+    background-color:#3477ac ;
+    border: none;
+}
+
+  .address h3{
+      margin:0px 0px;
+      padding:5px 0px;
+  }
+  .address p{
+    margin:0px 0px;
+    padding:5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  footer{
+      background-color:  #262626;
+      height: 70px;
+      margin: 0px 0px;
+      width:100%;
+      display:flex;
+      color:white;
+      justify-content: space-around;
+      align-items: center;
+  }
+  footer span{
+      color:#d52a4c;
+  }
+  .cashe{
+      
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+  }
